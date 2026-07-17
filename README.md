@@ -121,4 +121,4 @@ This is the official public download and support repository for Froz TLD Mod. It
 
 ## Disclaimer
 
-Froz TLD Mod is an unofficial community modification and is not affiliated with or supported by Hinterland Studio. Please direct mod-related support requests here or to the *The Long Dark* modding community, not to Hinterland.
+Froz TLD Mod is an unofficial community modification and is not affiliated with or supported by Hinterland Studio. Please direct mod-related support requests [here](../../issues) or to the *The Long Dark* modding community, not to Hinterland.
