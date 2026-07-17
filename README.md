@@ -93,7 +93,7 @@ Each release will identify the game and MelonLoader versions it was tested with.
 ## Installation
 
 1. Install MelonLoader and launch the game once.
-2. Install ModSettings.
+2. Install ModSettings plugin.
 3. Download the latest `FrozTLDMod.zip` from the [Releases](../../releases) page.
 4. Extract the archive into the game's `Mods` folder.
 5. Confirm these files exist:
