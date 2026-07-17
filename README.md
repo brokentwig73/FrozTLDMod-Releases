@@ -71,9 +71,14 @@ Optional reticles are available for pistols, rifles, and the flare gun. The pist
 
 Torch, flare, and lantern life indicators gradually turn red as the light source approaches empty, making it easier to notice before it goes out.
 
+### Item Placement Collision
+
+Freshly dropped items can inherit oversized placement collision boundaries, forcing unnatural gaps between bottles, cans, firewood, and other loose gear. Froz TLD Mod corrects those excessive boundaries so loose items can be placed closely beside one another while still preventing overlap.
+
+This is not **Place Anywhere** functionality. It does not disable normal placement rules, allow objects to clip through each other, or add unrestricted positioning controls. It specifically fixes the game's overly large item-to-item placement colliders, including the especially noticeable spacing applied to freshly dropped items.
+
 ### Small fixes that add up
 
-- Place loose items closer together without allowing them to overlap
 - Control Aurora ambience and Aurora-powered electrical sounds separately
 - Skip the startup disclaimer sequence through Hinterland's built-in `-skipintro` behavior
 
