@@ -57,15 +57,21 @@ The game often asks you to select the same tool repeatedly. Froz TLD Mod remembe
 
 It also remembers the exact weapon you selected, including individual condition variants, for the weapon hotkey and radial menu.
 
-### Weapon and light feedback
+### Weapon reticles
 
 Optional reticles are available for pistols, rifles, and the flare gun. The pistol hip-fire reticle follows the game's actual impact calculation instead of assuming the center of the screen is correct.
 
+![Pistol hip-fire reticle aligned with the game's impact calculation](images/pistol-hip-fire-reticle.png)
+
+### Light-source life warning
+
 Torch, flare, and lantern life indicators gradually turn red as the light source approaches empty, making it easier to notice before it goes out.
+
+![Torch life bar and icon turning red near burnout](images/red-light-life-warning.png)
 
 ### Item Placement Collision
 
-Freshly dropped items can inherit oversized placement collision boundaries, forcing unnatural gaps between bottles, cans, firewood, and other loose gear. Froz TLD Mod corrects those excessive boundaries so loose items can be placed closely beside one another while still preventing overlap.
+Items can inherit oversized placement collision boundaries, especially dropped items, forcing unnatural gaps between bottles, cans, firewood, and other loose gear. Froz TLD Mod corrects those excessive boundaries so loose items can be placed closely beside one another while still preventing overlap.
 
 This is not **Place Anywhere** functionality. It does not disable normal placement rules, allow objects to clip through each other, or add unrestricted positioning controls. It specifically fixes the game's overly large item-to-item placement colliders, including the especially noticeable spacing applied to freshly dropped items.
 
