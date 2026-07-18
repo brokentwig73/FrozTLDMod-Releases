@@ -59,7 +59,7 @@ It also remembers the exact weapon you selected, including individual condition 
 
 ### Weapon reticles
 
-Optional reticles are available for pistols, rifles, and the flare gun. The pistol hip-fire reticle follows the game's actual impact calculation instead of assuming the center of the screen is correct.
+Optional reticles are available for pistols, rifles, and the flare gun. The pistol hip-fire reticle follows the game's actual impact calculation for hip-firing instead of assuming the center of the screen is correct.
 
 ![Pistol hip-fire reticle aligned with the game's impact calculation](images/pistol-hip-fire-reticle.png)
 
@@ -81,7 +81,7 @@ This is not **Place Anywhere** functionality. It does not disable normal placeme
 
 ### Small fixes that add up
 
-- Control Aurora ambience and Aurora-powered electrical sounds separately
+- Control Aurora sound volume for both ambience and electrical crackling sounds.
 - Skip the startup disclaimer sequence through Hinterland's built-in `-skipintro` behavior
 
 ## Configuration
