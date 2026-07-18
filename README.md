@@ -6,23 +6,7 @@ It started as a better way to keep useful survival information visible and grew 
 
 The goal is not to turn *The Long Dark* into a different game. Froz TLD Mod keeps the original look and behavior wherever possible, then quietly improves the parts that create unnecessary repetition. Every major feature can be enabled or disabled from **Mod Settings**.
 
-<!--
-Screenshot gallery for the first public release:
-
-## Screenshots
-
-### Modular survival HUD
-![Froz TLD Mod survival HUD](images/hud-overview.png)
-
-### Backpack category weights
-![Backpack category weight display](images/inventory-category-weights.png)
-
-### Drag fuel directly into a fire
-![Adding loose fuel directly to a fire](images/drag-fuel-into-fire.png)
-
-### Configurable Mod Settings
-![Froz TLD Mod settings](images/mod-settings.png)
--->
+![Froz TLD Mod survival HUD shown during gameplay](images/hud-overview.png)
 
 ## Highlights
 
@@ -42,6 +26,12 @@ The HUD can include:
 
 Each element can be turned on or off independently.
 
+![Close-up of the modular survival HUD](images/hud-closeup.png)
+
+Category totals and percentages can also be displayed directly beside the backpack filters, including separate carried and worn clothing weights.
+
+![Backpack category weights and percentages](images/inventory-category-weights.png)
+
 ### Less friction around fire
 
 Froz TLD Mod improves several repetitive fire-starting interactions:
@@ -53,6 +43,8 @@ Froz TLD Mod improves several repetitive fire-starting interactions:
 - Right-click loose sticks, wood, coal, or other valid fuel and place it directly onto a burning fire
 
 When dragging fuel into a fire, the game-style interaction panel shows the added burn time, temperature increase, and resulting totals before you commit.
+
+![Adding loose fuel directly to a burning fire](images/drag-fuel-into-fire.png)
 
 ### Remembers the choices you already made
 
@@ -77,10 +69,20 @@ Freshly dropped items can inherit oversized placement collision boundaries, forc
 
 This is not **Place Anywhere** functionality. It does not disable normal placement rules, allow objects to clip through each other, or add unrestricted positioning controls. It specifically fixes the game's overly large item-to-item placement colliders, including the especially noticeable spacing applied to freshly dropped items.
 
+| Oversized placement boundary | Corrected placement footprint |
+| --- | --- |
+| ![Placement blocked by an oversized loose-item boundary](images/item-placement-before.png) | ![Loose items placed closely without overlapping](images/item-placement-after.png) |
+
 ### Small fixes that add up
 
 - Control Aurora ambience and Aurora-powered electrical sounds separately
 - Skip the startup disclaimer sequence through Hinterland's built-in `-skipintro` behavior
+
+## Configuration
+
+Features can be enabled independently from **Options > Mod Settings > FROZ TLD MOD**. The master switch disables the entire mod without removing it.
+
+![Froz TLD Mod configuration options](images/mod-settings.png)
 
 ## Requirements
 
