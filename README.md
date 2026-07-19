@@ -26,7 +26,7 @@ The HUD can include:
 
 Each element can be turned on or off independently.
 
-The indoor and outdoor displays adapt to the information available. Indoors, the stick compass is disabled while the HUD continues showing time, scent, temperature, and carry weight. Outdoors, the compass and wind dials provide their full directional readouts.
+The indoor and outdoor displays adapt to the information available. Indoors, the stick compass is disabled while the HUD continues showing time, scent, indoor and outdoor temperature, and carry weight. Outdoors, the compass and wind dials provide their full directional readouts.
 
 | Indoor HUD | Outdoor HUD |
 | --- | --- |
