@@ -6,7 +6,7 @@ It started as a better way to keep useful survival information visible and grew 
 
 The goal is not to turn *The Long Dark* into a different game. Froz TLD Mod keeps the original look and behavior wherever possible, then quietly improves the parts that create unnecessary repetition. Every major feature can be enabled or disabled from **Mod Settings**.
 
-![Froz TLD Mod survival HUD shown during gameplay](images/hud-overview.png)
+![Froz TLD Mod survival HUD shown during outdoor gameplay](images/hud-outdoor-overview.jpg)
 
 ## Highlights
 
@@ -26,7 +26,11 @@ The HUD can include:
 
 Each element can be turned on or off independently.
 
-![Close-up of the modular survival HUD](images/hud-closeup.png)
+The indoor and outdoor displays adapt to the information available. Indoors, the stick compass is disabled while the HUD continues showing time, scent, temperature, and carry weight. Outdoors, the compass and wind dials provide their full directional readouts.
+
+| Indoor HUD | Outdoor HUD |
+| --- | --- |
+| ![Close-up of the modular survival HUD indoors](images/hud-indoor-closeup.png) | ![Close-up of the modular survival HUD outdoors](images/hud-outdoor-closeup.png) |
 
 Category totals and percentages can also be displayed directly beside the backpack filters, including separate carried and worn clothing weights.
 
