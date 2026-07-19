@@ -81,7 +81,7 @@ This is not **Place Anywhere** functionality. It does not disable normal placeme
 
 | Oversized placement boundary | Corrected placement footprint |
 | --- | --- |
-| ![Placement blocked by an oversized loose-item boundary](images/item-placement-before.png) | ![Loose items placed closely without overlapping](images/item-placement-after.png) |
+| ![Placement blocked by an oversized loose-item boundary](images/item-placement-oversized-boundary.png) | ![Loose items placed closely without overlapping](images/item-placement-after.png) |
 
 ### Small fixes that add up
 
